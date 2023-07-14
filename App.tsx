@@ -2,9 +2,8 @@ import React from 'react';
 import { SafeAreaView, StyleSheet } from 'react-native';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 
-import { Input } from './src/components/atoms/data-picker';
-import { Multiple, Range, Single } from './src/components/molecules/data-picker';
-import registerTranslation from './src/components/objects/data-picker-registerTranslation';
+import registerTranslation from '@objects/data-picker-registerTranslation';
+import { DataPickerMultiple, DataPickerRange, DataPickerSingle, DatePickers } from '@ui/';
 
 const styles = StyleSheet.create({
   container: { justifyContent: 'center' },
@@ -16,10 +15,10 @@ const RNDatePicker = () => {
   return (
     <SafeAreaProvider>
       <SafeAreaView style={styles.container}>
-        <Input />
-        <Multiple />
-        <Range />
-        <Single />
+        <DatePickers.Input />
+        <DataPickerMultiple />
+        <DataPickerRange />
+        <DataPickerSingle />
       </SafeAreaView>
     </SafeAreaProvider>
   );

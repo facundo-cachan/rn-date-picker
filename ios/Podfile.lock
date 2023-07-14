@@ -456,8 +456,6 @@ PODS:
     - React-RCTText
     - ReactCommon/turbomodule/core
     - Yoga
-  - RNVectorIcons (9.2.0):
-    - React-Core
   - SocketRocket (0.6.1)
   - Yoga (1.14.0)
 
@@ -504,7 +502,6 @@ DEPENDENCIES:
   - React-utils (from `../node_modules/react-native/ReactCommon/react/utils`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
   - RNReanimated (from `../node_modules/react-native-reanimated`)
-  - RNVectorIcons (from `../node_modules/react-native-vector-icons`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
@@ -595,8 +592,6 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon"
   RNReanimated:
     :path: "../node_modules/react-native-reanimated"
-  RNVectorIcons:
-    :path: "../node_modules/react-native-vector-icons"
   Yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
@@ -643,10 +638,9 @@ SPEC CHECKSUMS:
   React-utils: bcb57da67eec2711f8b353f6e3d33bd8e4b2efa3
   ReactCommon: 3ccb8fb14e6b3277e38c73b0ff5e4a1b8db017a9
   RNReanimated: 9f7068e43b9358a46a688d94a5a3adb258139457
-  RNVectorIcons: fcc2f6cb32f5735b586e66d14103a74ce6ad61f8
   SocketRocket: f32cd54efbe0f095c4d7594881e52619cfe80b17
   Yoga: 8796b55dba14d7004f980b54bcc9833ee45b28ce
 
-PODFILE CHECKSUM: 4ad8d022161615ea868c054e959bc152c127d919
+PODFILE CHECKSUM: 590751162db91e3628b009146e1f27bc7b8fbb57
 
 COCOAPODS: 1.12.1

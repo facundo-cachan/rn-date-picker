@@ -1,0 +1,53 @@
+{
+  "compilerOptions": {
+    "rootDir": ".",
+    "outDir": "./build",
+    "baseUrl": ".",
+    "paths": {
+      "@components/*": [
+        "src/components/*"
+      ],
+      "@atoms/*": [
+        "src/components/ui/atoms/*"
+      ],
+      "@molecules/*": [
+        "src/components/ui/molecules/*"
+      ],
+      "@ui/*": [
+        "src/components/ui/index.ts"
+      ],
+      "@objects/*": [
+        "src/components/ui/objects/*"
+      ],
+      "@screens/*": [
+        "src/screens/*"
+      ],
+      "@styles/*": [
+        "src/styles/*"
+      ],
+      "@src/*": [
+        "src/*"
+      ]
+    },
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "esModuleInterop": true,
+    "jsx": "react",
+    "lib": [
+      "esnext"
+    ],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noImplicitUseStrict": false,
+    "noStrictGenericChecks": false,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "target": "esnext"
+  }
+}
